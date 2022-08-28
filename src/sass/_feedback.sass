@@ -1,0 +1,63 @@
+.feedback
+  margin-top: 80px
+  &-title 
+    text-align: center
+    font-size: 32px
+  &-slider
+    display: flex
+    justify-content: space-around
+    margin-left: auto
+    margin-right: auto
+    max-width: 800px
+    margin-top: 100px
+    .slide
+      display: flex
+      flex-direction: row
+      align-items: center
+    &__text
+      margin-left: 50px
+      max-width: 440px
+      line-height: 1.3
+      a
+        color: $active-color
+        border-bottom: 1px solid $active-color
+        cursor: pointer
+        padding-left: 0
+        padding-right: 0
+        width: 311px
+    &__img
+      margin-left: 30px
+      width: 215px
+      border-radius: 50%
+      filter: brightness(60%)
+    &__name
+      margin-left: 60px
+      margin-top: 65px
+      position: absolute
+      z-index: 10
+      font-weight: 600
+      font-size: 20px
+      line-height: 1.2
+      span
+        font-weight: 400
+        margin-left: 40px
+        font-size: 18px
+.arrow
+  position: absolute
+  top: 0
+  z-index: 99
+  width: 22px
+  height: 100%
+  &:hover
+    cursor: pointer
+  &_right
+    right: -40px
+    background: #242424 url(../img/feedback-slider-right.png) center no-repeat
+  &_left
+    left: -40px
+    background: #242424 url(../img/feedback-slider-left.png) center no-repeat
+
+       
+      
+      
+      

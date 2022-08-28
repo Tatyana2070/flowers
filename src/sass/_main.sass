@@ -1,0 +1,64 @@
+.main
+  margin-top: 170px
+  margin-bottom: -20px
+  text-align: center
+  &-flower
+    &_left
+      float: left
+      margin-left: 30px
+      margin-top: -120px
+    &_right
+      float: right
+      margin-top: 120px
+  &-text 
+    &__title
+      font-size: 37px
+      margin: auto
+      width: 700px
+      line-height: 1.2
+    &__subtitle
+      margin-top: 30px
+      font-size: 18px
+      font-weight: 300
+      width: 560px
+      margin-left: auto
+      margin-right: auto
+      span
+        font-weight: 700
+    &__button
+      margin-top: 20px
+      font-size: 18px
+      background-color: $active-color
+      border: none
+      color: #fff
+      padding: 24px 70px
+      cursor: pointer
+      &:hover
+        box-shadow: 0px 0px 16px 0px rgba(242, 72, 65, 0.39)
+  &-slider 
+    max-width: 1000px
+    margin: auto
+    text-align: center
+    margin-top: 70px
+    margin-bottom: 25px
+    &__flowers
+      cursor: pointer
+.slider-arrow
+  position: absolute
+  top: 0
+  z-index: 99
+  width: 22px
+  height: 100%
+  &:hover
+    cursor: pointer
+  &_right
+    right: 0
+    background: #242424 url(../img/main/arrow-right.png) center no-repeat
+    &:hover
+     background: #242424 url(../img/main/arrow-right_active.png) center no-repeat
+  &_left
+    left: -60px
+    background: #242424 url(../img/main/arrow-left.png) center no-repeat
+    &:hover
+     background: #242424 url(../img/main/arrow-left_active.png) center no-repeat
+    

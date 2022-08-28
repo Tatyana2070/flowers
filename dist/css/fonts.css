@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Gotha Pro Lig';
+  src: url('../fonts/GothaProLig.otf');
+}
+
+@font-face {
+  font-family: 'Gotha Pro Med';
+  src: url('../fonts/GothaProMed.otf');
+}
+
+@font-face {
+  font-family: 'Gotha Pro Reg';
+  src: url('../fonts/GothaProReg.otf');
+}
